@@ -69,7 +69,7 @@ function updateData(data){
 srchBtn.onclick = ()=>{
     if(inp.value!==""){
         
-        getData(`http://api.openweathermap.org/data/2.5/weather?q=${inp.value}&units=metric&appid=1b96837e7db827e60252b3894f7875cd`);
+        getData(`https://api.openweathermap.org/data/2.5/weather?q=${inp.value}&units=metric&appid=1b96837e7db827e60252b3894f7875cd`);
         
     }
 }
